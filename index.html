@@ -1,0 +1,1358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ironverse website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="IMAGES/logo/logo.png">
+    <link rel="stylesheet" href="CSS/normalize.css">
+  
+</head>
+
+<body>
+     <div class="shadow">
+            
+        </div>
+    <!-- HEADER SECTION START -->
+
+    <header>
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="IMAGES/logo/logo.png" alt="">
+            </a>
+            <nav>
+                <input type="checkbox" id="menu">
+                <svg class="menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-dasharray="16" stroke-dashoffset="16"
+                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <path d="M5 5h14">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.2s" values="16;0" />
+                        </path>
+                        <path d="M5 12h14">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.2s" dur="0.2s"
+                                values="16;0" />
+                        </path>
+                        <path d="M5 19h14">
+                            <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.2s"
+                                values="16;0" />
+                        </path>
+                    </g>
+                </svg>
+                <svg class="close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                        d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275t.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7t-.7.275t-.7-.275z" />
+                </svg>
+
+                <ul>
+                    <li><a href="/">الرئيسية <span><i class="fa-solid fa-house"></i></span></a></li>
+                    <li><a href="#services">خدماتنا <span><i class="fa-solid fa-user-gear"></i></span></a></li>
+                    <li style="position: relative;"><a href="">الأقسام<span><i class="fa-solid fa-caret-down"></i></span></a>
+                        <input  type="checkbox" name="" id="sec">
+                    <div class="sec">
+                        <a href="#about">عنا</a>
+                        <a href="#price">نظامك التدريبي</a>
+                        <a href="#team">فريقنا</a>
+                        <a href="#skills">مهاراتنا</a>
+                        <a href="#pri">أسعارنا</a>
+                        <a href="#test">آراء العملاء</a>
+                        
+                        
+                        
+                    </div>
+                    
+                </li>
+                    <li><a href="#porto">معرض الأعمال <span><i class="fa-solid fa-briefcase"></i></span></a></li>
+                    <li ><a href="#foot">إتصل بنا <span><i class="fa-solid fa-phone"></i></span></a> </li>
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://fontawesome.com/icons"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="currentColor" d="M4.393 4.5a2.438 2.438 0 1 0-2.8-.141V24h3v-3h17.513c.684 0 1.238-.554 1.238-1.237a1.2 1.2 0 0 0-.107-.503l-2.893-6.51l2.893-6.51a1.2 1.2 0 0 0 .107-.503c0-.683-.554-1.237-1.238-1.237Z"/></svg></a>
+                <a href="https://iconify.design/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><mask id="lineMdIconify2Static0"><g fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path stroke-width="1.5" d="M3.25 22.25h17.5"/><path d="M7 3v3M5 8v11h14v-11"/><path stroke="#000" stroke-width="4" d="M12 16v4.5M12 3l8.5 5.5"/><path d="M12 3l8.5 5.5"/><path stroke="#000" stroke-width="4" d="M12 3l-8.5 5.5"/><path d="M12 3l-8.5 5.5M12 11.5v9"/></g><circle cx="12" cy="11.5" r="3.5"/><circle cx="12" cy="11.5" r="1.5" fill="#fff"/></mask><rect width="24" height="24" fill="currentColor" mask="url(#lineMdIconify2Static0)"/></svg></a>
+                <a href="https://www.pinterest.com/"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="11"/><path d="m8 22l3-11a1 1 0 0 0 5 5.5A6 6 0 1 0 6 12"/></g></svg></a>
+                <a href="https://www.linkedin.com/"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="4" cy="4" r="2" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="12" stroke-dashoffset="12" d="M4 10v10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.15s" dur="0.2s"
+                                    values="12;0" />
+                            </path>
+                            <path stroke-dasharray="12" stroke-dashoffset="12" d="M10 10v10">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.45s" dur="0.2s"
+                                    values="12;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24"
+                                d="M10 15c0 -2.76 2.24 -5 5 -5c2.76 0 5 2.24 5 5v5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.65s" dur="0.2s"
+                                    values="24;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="https://github.com/mohammedtiger476/Educate/settings/pages"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <mask id="lineMdGithubLoop0" width="24" height="24" x="0" y="0">
+                            <g fill="#fff">
+                                <ellipse cx="9.5" cy="9" rx="1.5" ry="1" />
+                                <ellipse cx="14.5" cy="9" rx="1.5" ry="1" />
+                            </g>
+                        </mask>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="32" stroke-dashoffset="32"
+                                d="M12 4c1.67 0 2.61 0.4 3 0.5c0.53 -0.43 1.94 -1.5 3.5 -1.5c0.34 1 0.29 2.22 0 3c0.75 1 1 2 1 3.5c0 2.19 -0.48 3.58 -1.5 4.5c-1.02 0.92 -2.11 1.37 -3.5 1.5c0.65 0.54 0.5 1.87 0.5 2.5c0 0.73 0 3 0 3M12 4c-1.67 0 -2.61 0.4 -3 0.5c-0.53 -0.43 -1.94 -1.5 -3.5 -1.5c-0.34 1 -0.29 2.22 0 3c-0.75 1 -1 2 -1 3.5c0 2.19 0.48 3.58 1.5 4.5c1.02 0.92 2.11 1.37 3.5 1.5c-0.65 0.54 -0.5 1.87 -0.5 2.5c0 0.73 0 3 0 3">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.7s" values="32;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10"
+                                d="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5">
+                                <animate attributeName="d" dur="3s" repeatCount="indefinite"
+                                    values="M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5;M9 19c-1.406 0-3-.5-4-.5-.532 0-1 0-2-.5;M9 19c-1.406 0-2.844-.563-3.688-1.188C4.47 17.188 4.22 16.157 3 15.5" />
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.8s" dur="0.2s"
+                                    values="10;0" />
+                            </path>
+                        </g>
+                        <rect width="8" height="4" x="8" y="11" fill="currentColor" mask="url(#lineMdGithubLoop0)">
+                            <animate attributeName="y" dur="10s" keyTimes="0;0.45;0.46;0.54;0.55;1"
+                                repeatCount="indefinite" values="11;11;7;7;11;11" />
+                        </rect>
+                    </svg></a>
+                
+            </div>
+        </div>
+    </header>
+
+     <!-- HEADER SECTION END -->
+
+     <!-- HERO SECTION START -->
+
+     <section class="hero" id="hero">
+       
+       <div class="container">
+         <div class="hero-info">
+            <h1>Ironverse</h1>
+            <h2>كتلة عضلية - لياقة - قوة - تحمل</h2>
+            <p>
+                        نادينا ليس مجرد مكان للتمرين، بل مصنع للطاقات وإعادة صياغة الذات. في بيئة احترافية تجمع بين أحدث تقنيات التدريب وأفضل المدربين، نمنحك كل الأدوات لبناء جسدٍ قوي وعقلٍ أكثر صحة.
+        سواء كنت مبتدئًا تطمح للتغيير أو محترفًا يبحث عن التحدي، هنا يبدأ التحوّل.
+        قوّتك تبدأ من هنا.
+            </p>
+            <div class="hero-btn">
+                <button>تعرف على المزيد <span><i class="fa-solid fa-angle-right"></i></span></button>
+                <button>إتصل بنا <span><i class="fa-solid fa-phone"></i></span></button>
+            </div>
+            <div class="social">
+                <a href="https://www.facebook.com/?locale=ar_AR"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="https://wa.me/0993734208"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href="https://www.instagram.com/mhuommedsy?igsh=czd3YmFuaWpldjM4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href="IMAGES/tele/qrcode.jpg"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+            </div>
+            
+        </div>
+        <div class="hero-img">
+            <img src="IMAGES/using-img/hero.png" alt="">
+        </div>
+       </div>
+     </section>
+
+     <!-- HERO SECTION END -->
+
+     <!-- SERVECS SECTION START -->
+
+
+     <section class="srvicess" id="services">
+        <div class="container">
+            <h2>خدمات النادي</h2>
+            <p>نقدم لك باقة متكاملة من الخدمات المصممة لتناسب أهدافك الرياضية والصحية. سواء كنت مبتدئًا أو محترفًا، ستجد كل ما تحتاجه لتبدأ رحلتك بثقة وقوة.</p>
+             <div class="services-all">
+            <div class="services">
+                <div class="img">
+                    <img src="IMAGES/using-img/برامج تدريب.png" alt="">
+                </div>
+                <h3>برامج تدريب مخصصة</h3>
+                <p>خطط تمرين مصممة حسب أهدافك البدنية ومستواك.</p>
+            </div>
+            <div class="services">
+                <div class="img">
+                    <img width="90" src="IMAGES/using-img/تدريب شخصي.png" alt="">
+                </div>
+                <h3> تدريب شخصي مع مدربين محترفين</h3>
+                <p>مدربون مؤهلون يرافقونك خطوة بخطوة لتحقيق نتائج حقيقية.</p>
+            </div>
+            <div class="services">
+                <div class="img">
+                    <img width="90" src="IMAGES/using-img/التغذية.png" alt="">
+                </div>
+                <h3>استشارات تغذية وريجيم</h3>
+                <p>خطط غذائية متوازنة تدعم أدائك وتحقق نتائجك بسرعة وأمان.</p>
+            </div>
+            <div class="services">
+               <div class="img">
+                 <img width="90" src="IMAGES/using-img/الكاردي.png" alt="">
+               </div>
+                <h3>مركز لياقة وكارديو متكامل</h3>
+                <p>أجهزة حديثة وتمارين متنوعة لتحسين القوة والتحمّل.</p>
+            </div>
+            <div class="services">
+                <div class="img">
+                    <img width="90" src="IMAGES/using-img/مراقبة.png" alt="">
+                </div>
+                <h3>مراقبة وتقييم تطوّرك</h3>
+                <p>متابعة دورية لنتائجك ومساعدتك في تعديل الخطة عند الحاجة.</p>
+            </div>
+        </div>
+     </div>
+     </section>
+       
+
+
+     <!-- SERVECS SECTION END -->
+
+     <!-- ABOUT SECTION START -->
+
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about-info">
+                    <div class="info">
+                        <h2>من نحن؟</h2>
+                        <p>نحن أكثر من مجرد نادٍ رياضي... نحن مجتمع يؤمن بأنّ القوة تبدأ من الداخل.
+في نادي Ironverse نمنحك بيئة محفّزة، أجهزة متطورة، ومدربين ملتزمين، لأننا لا ندرّبك فقط لتصبح أقوى، بل لنُطلق أفضل نسخة من نفسك.
+هنا، نبدأ معك خطوة بخطوة، ونبقى معك حتى القمّة.</p>
+                            <button>إنضم إلينا</button>
+                    </div>
+                    <div class="img">
+                        <img src="IMAGES/back-img/bak-gym.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="about-info-bllus">
+                    <div class="about-card">
+                        <div class="img">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Members Icon" >
+                        </div>
+                        <h3>سنوات +5</h3>
+                        <p>من النجاح في تغيير حياة الناس</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="img">
+                            <img src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png" alt="Trainers Icon" >
+                        </div>
+                        <h3>12</h3>
+                        <p>مدرب معتمد بخبرات دولية</p>
+                    </div>
+                    <div class="about-card">
+                        <div class="img">
+                            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png" alt="Experience Icon" >
+                        </div>
+                        <h3>+1500</h3>
+                        <p>عضو فعال وجاهز للتغيير</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <!-- ABOUT SECTION END -->
+
+     <!-- COURSES SECTION START -->
+      <section class="courses-section" id="price">
+       <div class="container">
+         <h2>نظامك التدريبي</h2>
+        <p>إختر الخطة التي تناسبك وإبدأ رحلتك نحو أقوى نسخة منك</p>
+        <div class="all-courses">
+            <div class="course">
+                <div class="img">
+                    <img src="IMAGES/courses/الحديد.jpeg" alt="">
+                </div>
+                <h3>خطة الحديد</h3>
+                <span></span>
+                <p>برنامج متكامل لزيادة الكتلة العضلية خلال 6 أسابيع. مناسب للمستوى المتوسط.</p>
+                <hr>
+                <div class="course-info">
+                    <small>6أسابيع</small>
+                    <small>متوسط</small>
+                </div>
+                <div class="course-prise">
+                    <small>السعر: <span>20$</span></small>
+                    <small>15$</small>
+                </div>
+                <button>أبدأ الآن</button>
+                
+
+            </div>
+            <div class="course">
+                <div class="img">
+                    <img src="IMAGES/courses/اللياقة.jpeg" alt="">
+                </div>
+                <h3>تحدي اللياقة</h3>
+                <span></span>
+                <p>خطة ديناميكية لرفع مستوى اللياقة والتحمّل خلال 4 أسابيع. تناسب جميع المستويات.</p>
+                 <hr>
+                <div class="course-info">
+                    <small>4أسابيع</small>
+                    <small>جميع المستويات</small>
+                </div>
+                <div class="course-prise">
+                    <small>السعر: <span>20$</span></small>
+                    <small>15$</small>
+                </div>
+                <button>أبدأ الآن</button>
+                
+
+            </div>
+            <div class="course">
+                <div class="img">
+                    <img src="IMAGES/courses/حرق الدهون.jpeg" alt="">
+                </div>
+                <h3>حرق الدهون السريع</h3>
+                <span></span>
+                <p>برنامج مخصص لخسارة الوزن ونحت الجسم بطريقة فعالة وآمنة خلال 8 أسابيع.</p>
+                 <hr>
+                <div class="course-info">
+                    <small>8أسابيع</small>
+                    <small>متوسط - مبتدىء</small>
+                </div>
+                <div class="course-prise">
+                    <small>السعر: <span>20$</span></small>
+                    <small>15$</small>
+                </div>
+                <button>أبدأ الآن</button>
+                
+
+            </div>
+            <div class="course">
+                <div class="img">
+                    <img src="IMAGES/courses/توازن.jpeg" alt="">
+                </div>
+                <h3> توازن الجسم والعقل</h3>
+                <span></span>
+                <p>برنامج يجمع بين التمارين اللطيفة وتقنيات الاسترخاء لتحسين الصحة العامة والاستشفاء.</p>
+                 <hr>
+                <div class="course-info">
+                    <small>3أسابيع</small>
+                    <small>خفيف</small>
+                </div>
+                <div class="course-prise">
+                    <small>السعر: <span><span>20$</span></span></small>
+                    <small>15$</small>
+                </div>
+                <button>أبدأ الآن</button>
+                
+
+            </div>
+        </div>
+       </div>
+      </section>
+     <!-- COURSES SECTION END -->
+
+     <!-- PORTOFOLIO SECTION START  -->
+
+     <section class="porto-section" id="porto">
+        <h2>مشاريع نفخر بها</h2>
+        <p>استعرض مجموعة من المواقع التي أنجزناها باحتراف.
+كل مشروع يعكس التزامنا بالجودة، التصميم الذكي، والتجربة المميزة.</p>
+        <div class="container">
+            <div class="all-cards">
+                <div class="card">
+                    
+                    <div class="img">
+                        <img src="IMAGES/porto/calck.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>آلة حاسبة</h3>
+                        <p>مشروع آلة حاسبة بسيط بديزاين الموبايل</p>
+                        <a href="html/CALC.html"><button>رؤية مباشرة</button></a>
+                    </div>
+                </div>
+                <div class="card">
+                   
+                    <div class="img">
+                        <img src="IMAGES/porto/clock.jpg" alt="">
+                    </div>
+                    <div class="info">
+                    <h3>ساعة حائط</h3>
+                    <p>تجربة لتصميم ساعة حائط يدوية واقعية</p>
+                    <a href="html/Clock.html"><button>رؤية مباشرة</button></a>
+                    </div>
+                </div>
+                 <div class="card">
+                    
+                    <div class="img">
+                        <img src="IMAGES/porto/coffee.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>مكتبة</h3>
+                        <p>مجموعة من الكتب التي ترفع مستوى الثقافة لديك على شكل مكتبة إلكترونية</p>
+                        <a href="html/مكتبة/index.html"><button>رؤية مباشرة</button></a>
+                    </div>
+                </div>
+                 <div class="card">
+                  
+                    <div class="img">
+                        <img src="IMAGES/porto/programm.jpg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>تطبيق محاضرات</h3>
+                        <p>مشروع بسيط لطلاب الجامعة الإفتراضية لتخصص تقانة الإتصالات</p>
+                        <a href="html/برنامج للمحاضرات.html"><button>رؤية مباشرة</button></a>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+     </section>
+      
+     <!-- PORTOFOLIO SECTION END  -->
+     <!-- TEAM SECTION START  -->
+
+     <section class="team-section" id="team">
+        <h2>فريقنا</h2>
+        <p>مجموعة من المدربين والاختصاصيين الملتزمين بمساعدتك للوصول لأهدافك.
+خبرات متنوعة، شغف بالرياضة، والتزام بتقديم الأفضل دائمًا.</p>
+        <div class="container">
+            <div class="team-box">
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come1.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>الكابتن أحمد المصري</h3>
+                        <p>مدرب شخصي – أخصائي تغذية</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come2.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>نورس عبد الحميد</h3>
+                        <p>أخصائي تغذية وريجيم</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come3.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>سامر الخطيب</h3>
+                        <p>مدرب حديد محترف</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come4.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                       <h3>د. راشد الأشقر</h3>
+                        <p>معالجة فيزيائية واستشفاء</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come5.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>حسام عمر	</h3>
+                        <p>مدرب كارديو HIIT</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come6.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>رامز الحسين	</h3>
+                        <p>مدرب يوغا وتوازن جسدي</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come7.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>يزن العلي</h3>
+                        <p>مسؤول متابعة وتقييم نتائج</p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="img">
+                        <img src="IMAGES/team/come8.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3>محمد النجار</h3>
+                        <p>خدمة عملاء وتنظيم </p>
+                        <div class="social">
+                             <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="4">
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M17 4l-2 0c-2.5 0 -4 1.5 -4 4v12">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M8 12h7">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.2s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                            d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21c5.46 0 9.91-4.45 9.91-9.91c0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23c-1.48 0-2.93-.39-4.19-1.15l-.3-.17l-3.12.82l.83-3.04l-.2-.32a8.2 8.2 0 0 1-1.26-4.38c.01-4.54 3.7-8.24 8.25-8.24M8.53 7.33c-.16 0-.43.06-.66.31c-.22.25-.87.86-.87 2.07c0 1.22.89 2.39 1 2.56c.14.17 1.76 2.67 4.25 3.73c.59.27 1.05.42 1.41.53c.59.19 1.13.16 1.56.1c.48-.07 1.46-.6 1.67-1.18s.21-1.07.15-1.18c-.07-.1-.23-.16-.48-.27c-.25-.14-1.47-.74-1.69-.82c-.23-.08-.37-.12-.56.12c-.16.25-.64.81-.78.97c-.15.17-.29.19-.53.07c-.26-.13-1.06-.39-2-1.23c-.74-.66-1.23-1.47-1.38-1.72c-.12-.24-.01-.39.11-.5c.11-.11.27-.29.37-.44c.13-.14.17-.25.25-.41c.08-.17.04-.31-.02-.43c-.06-.11-.56-1.35-.77-1.84c-.2-.48-.4-.42-.56-.43c-.14 0-.3-.01-.47-.01" />
+                    </svg></a>
+                <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <circle cx="17" cy="7" r="1.5" fill="currentColor" fill-opacity="0">
+                            <animate fill="freeze" attributeName="fill-opacity" begin="1.3s" dur="0.15s" values="0;1" />
+                        </circle>
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="72" stroke-dashoffset="72"
+                                d="M16 3c2.76 0 5 2.24 5 5v8c0 2.76 -2.24 5 -5 5h-8c-2.76 0 -5 -2.24 -5 -5v-8c0 -2.76 2.24 -5 5 -5h4Z">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.6s" values="72;0" />
+                            </path>
+                            <path stroke-dasharray="28" stroke-dashoffset="28"
+                                d="M12 8c2.21 0 4 1.79 4 4c0 2.21 -1.79 4 -4 4c-2.21 0 -4 -1.79 -4 -4c0 -2.21 1.79 -4 4 -4">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.6s"
+                                    values="28;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                <a href=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2">
+                            <path stroke-dasharray="20" stroke-dashoffset="20" d="M21 5l-2.5 15M21 5l-12 8.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="20;0" />
+                            </path>
+                            <path stroke-dasharray="24" stroke-dashoffset="24" d="M21 5l-19 7.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s" values="24;0" />
+                            </path>
+                            <path stroke-dasharray="14" stroke-dashoffset="14" d="M18.5 20l-9.5 -6.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="14;0" />
+                            </path>
+                            <path stroke-dasharray="10" stroke-dashoffset="10" d="M2 12.5l7 1">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.4s" dur="0.3s"
+                                    values="10;0" />
+                            </path>
+                            <path stroke-dasharray="8" stroke-dashoffset="8" d="M12 16l-3 3M9 13.5l0 5.5">
+                                <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.7s" dur="0.3s"
+                                    values="8;0" />
+                            </path>
+                        </g>
+                    </svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+
+     <!-- TEAM SECTION END  -->
+    <!-- SKILLES SECTION START -->
+
+    <div class="skilles-section" id="skills">
+       
+        <div class="container">
+            <div class="skilles-info">
+                <div class="info">
+                    <h2>مهاراتنا</h2>
+                    <p>مجموعة من المهارات الاحترافية اللي بتميز فريقنا، من تصميم وتطوير إلى تنسيق وتنفيذ بدقة وإبداع.</p>
+                    
+                         <div class="skilles">
+                <h3>مهاراتي الشخصية</h3>
+               
+                
+                <div class="skilles-data">
+                    <div class="skille">
+                        <h4>HTML</h4>
+                    <svg class="sk1" width="100" height="100">
+                         
+                        <circle class="cir1" cx="50" cy="50" r="40">
+                    </svg>
+                   
+                </div>
+                <div class="skille">
+                    <h4>CSS</h4>
+                    <svg class="sk1" width="100" height="100">
+                        
+                        <circle class="cir1" cx="50" cy="50" r="40">
+                    </svg>
+                    
+                </div>
+                <div class="skille">
+                    <h4>JS</h4>
+                    <svg class="sk1" width="100" height="100">
+                        
+                        <circle class="cir1" cx="50" cy="50" r="40">
+                    </svg>
+                    
+                </div>
+                </div>
+                
+            </div>
+            </div>
+            <div class="skilles-img">
+                <img src="IMAGES/back-img/Developer programmer -Программист-разработчик.jpeg" alt="">
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    <!-- SKILLES SECTION END -->
+
+    <!-- PRICEING SECTION START -->
+
+    <section class="priceing-section" id="pri">
+        <h2>خططنا وأسعارنا</h2>
+        <p>اختر الخطة اللي بتناسبك، كل خطة بتشمل خدمات قوية وسعر واضح بدون تعقيد. نحنا عاملين الباقات لتناسب الكل، من يلي حابب يبلّش لتاجر بدو يكبر شغله.</p>
+
+
+
+        <div class="container">
+            <div class="priceing-all">
+
+
+
+
+
+                <div class="priceing">
+                    <div class="img">
+                        <img src="IMAGES/priceing/pric1.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3> Basic Plan</h3>
+                         <div class="price">
+                            <span>19$</span>
+                            <span>شهرياً</span>
+                         </div>
+                         </div>
+                         <ul>
+                            <li>دخول إلى النادي 3 أيام بالأسبوع</li>
+                            <li>جلسة تدريبية مجانية شهرياً</li>
+                            <li>دعم عبر الهاتف</li>
+                            <button class="price">إشترك الآن</button>
+                         </ul>
+                         
+                    
+                    </div>
+
+
+
+                     <div class="priceing">
+                    <div class="img">
+                        <img src="IMAGES/priceing/pric2.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3> Standard Plan</h3>
+                         <div class="price">
+                            <span>39$</span>
+                            <span>شهرياً</span>
+                         </div>
+                        </div>
+                         <ul>
+                            <li>دخول غير محدود</li>
+                            <li>4 جلسات تدريب شخصي</li>
+                            <li>متابعة تغذية</li>
+                            <li>خصم 10% على المنتجات</li>
+                            <button class="price">إشترك الآن</button>
+                         </ul>
+                         
+                    </div>
+                    
+                    
+
+
+                     <div class="priceing">
+                    <div class="img">
+                        <img src="IMAGES/priceing/pric3.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3> Pro Plan</h3>
+                         <div class="price">
+                            <span> 59$</span>
+                            <span>شهرياً</span>
+                         </div>
+                         </div>
+                         <ul>
+                            <li> دخول كامل وخاص</li>
+                            <li>مدرب خاص دائم</li>
+                            <li>نظام تغذية مفصل</li>
+                            <li> جلسات مساج شهرية</li>
+                            <li>هدايا حصرية</li>
+                             <button class="price">إشترك الآن</button>
+                         </ul>
+                        
+                    </div>
+
+
+
+                     <div class="priceing">
+                    <div class="img">
+                        <img src="IMAGES/priceing/pric4.jpeg" alt="">
+                    </div>
+                    <div class="info">
+                        <h3> Elite Plan</h3>
+                         <div class="price">
+                            <span>89$</span>
+                            <span>شهرياً</span>
+                         </div>
+                        </div>
+                         <ul>
+                            <li>دخول غير محدود 24/7</li>
+                            <li>مدرب خاص + جدول تمرين أسبوعي مخصص</li>
+                            <li>نظام غذائي احترافي مع متابعة أسبوعية</li>
+                            <li> جلسات مساج + ساونا</li>
+                            <li>حقيبة ترحيبية وخصومات حصرية</li>
+                            <li>أولوية بالحجوزات والخدمات</li>
+                             <button class="price">إشترك الآن</button>
+                         </ul>
+                        
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+        
+
+
+
+
+
+
+    </section>
+
+    <!-- PRICEING SECTION END -->
+
+
+    <!-- TESTIMONIAL SECTION START -->
+
+        <section class="testimonial-section" id="test">
+            <h2>آراء عملائنا</h2>
+            <p> كل تجربة معنا كانت مختلفة ومميزة، وهي بعض من أصوات الناس يلي جرّبونا وحققوا نتائج حقيقية.</p>
+            <div class="container">
+                <div class="testimonial">
+                   
+                   
+                    <div class="test">
+                        <div class="img">
+                            <img src="IMAGES/testimonial/test1.jpeg" alt="">
+                        </div>
+                        <h3> سامر الطويل</h3>
+                        <p>موظف قطاع خاص</p>
+                        <div class="stars">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="rivuew">
+                            <p>"كنت حابب غيّر نمط حياتي، وهالنادي عطاني الدافع والانضباط. المدربين محترفين والمكان نضيف دائماً. شكراً كتير!"</p>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="img">
+                            <img src="IMAGES/testimonial/test2.jpeg" alt="">
+                        </div>
+                        <h3>  نور علي</h3>
+                        <p>طالبة جامعية</p>
+                        <div class="stars">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="rivuew">
+                            <p>"الجو هون بخليني حب التمرين! البنات اللي بالصف كتير طاقات حلوة، والمدربة بتتابع معنا خطوة بخطوة."</p>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="img">
+                            <img src="IMAGES/testimonial/test3.jpeg" alt="">
+                        </div>
+                        <h3> كريم الحاج</h3>
+                        <p> رياضي سابق</p>
+                        <div class="stars">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="rivuew">
+                            <p>"رجعت للياقتي بعد إصابة طويلة، والمكان ساعدني أرجع تدريجياً بدون ضغط. ما توقعت هالدعم كله."</p>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="img">
+                            <img src="IMAGES/testimonial/test4.jpeg" alt="">
+                        </div>
+                        <h3>دلال المصري</h3>
+                        <p>خبيرة تغذية</p>
+                        <div class="stars">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="rivuew">
+                            <p> "النادي مرتب والخطط الغذائية واضحة، كتير ساعدوني بتطبيقها لزبائني كمان. التعاون معهم رهيب."</p>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="img">
+                            <img src="IMAGES/testimonial/test5.jpeg" alt="">
+                        </div>
+                        <h3>  زياد منصور </h3>
+                        <p> مصوّر حر</p>
+                        <div class="stars">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="rivuew">
+                            <p>"أنا شخص مشغول كتير، بس وجود خطة مرنة ساعدني ظل محافظ على صحتي بدون ما أضيّع وقت."</p>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="img">
+                            <img src="IMAGES/testimonial/test6.jpeg" alt="">
+                        </div>
+                        <h3>عاصم القيسي</h3>
+                        <p>عاصم القيسي</p>
+                        <div class="stars">
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-solid fa-star"></i></span>
+                            <span><i class="fa-regular fa-star"></i></span>
+                        </div>
+                        <div class="rivuew">
+                            <p>"ببساطة: راحة نفسية، نتائج واضحة، ومدربين بيعرفوا شو عم يعملوا. كل تمرين محسوب وفعّال!"</p>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+    <!-- TESTIMONIAL SECTION END -->
+
+
+    <!-- FOOTER SECTION START -->
+     <footer id="foot">
+        
+        <div class="container">
+            <div class="social">
+            <ul>
+                <li><i class="fa-brands fa-google"></i> <span>google</span></li>
+                <li><i class="fa-brands fa-instagram"></i> <span>instagram</span></li>
+                <li><i class="fa-brands fa-x-twitter"></i> <span>twitter</span></li>
+                <li><i class="fa-brands fa-pinterest"></i> <span>pintrest</span></li>
+                <li><i class="fa-brands fa-facebook-f"></i> <span>facebook</span></li>
+                <li><i class="fa-brands fa-youtube"></i> <span>yuotube</span></li>
+                <li><i class="fa-brands fa-linkedin"></i> <span>linkedin</span></li>
+            </ul>
+        </div>
+        
+            <p>انضم الينا وكون نسخة ألإضل من نفسك </p>
+            <p>ابني الجسم المثالي الذي تطمح له</p>
+        </div>
+        <div class="connect">
+           <div>
+             <span><i class="fa-solid fa-envelope"></i></span>
+            <a href="">mohammedtiger476@gmail.com</a>
+           </div>
+           <div>
+             <span><i class="fa-solid fa-phone"></i></span>
+            <p>(+963)986-057-072</p>
+           </div>
+
+        </div>
+        <div class="copy">
+            <p>جميع الحقوق محفوظة لنادينا 2025 &copy;</p>
+        </div>
+        </div>
+       
+     </footer>
+    <!-- FOOTER SECTION END -->
+
+
+    <a href="https://wa.me/0993734208" class="whats">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+    <a href="#hero" class="btn-top">
+        <i class="fa-solid fa-arrow-up"></i>
+    </a>
+    <script type="text/javascript" src="JS/script.js"></script>
+        
+</body>
+
+</html>
